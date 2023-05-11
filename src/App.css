@@ -1,0 +1,25 @@
+.header {
+  height: 80px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  display: table;
+  text-align: center;
+  width: 100%;
+}
+
+.header .title {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.camera {
+  position: "absolute";
+  margin: "auto";
+  text-align: "center";
+  top: 100;
+  left: 0;
+  right: 0;
+  width: 640;
+  height: 480;
+}
